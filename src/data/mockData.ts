@@ -1,9 +1,11 @@
 import { Facility, FuelFormula, AthleteProfile, HeartRateZone } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_athlete_sprint_1791425290664.jpg';
-export const FACILITY_IMAGE = '/src/assets/images/facility_training_hub_1791425306221.jpg';
-export const NUTRITION_IMAGE = '/src/assets/images/nutrition_dispense_lab_1791425325819.jpg';
-export const RECOVERY_IMAGE = '/src/assets/images/athlete_hydro_recovery_1791425342177.jpg';
+export const HERO_IMAGE = '/src/assets/images/envato_sprint_track_1791426294634.jpg';
+export const HYPOXIC_IMAGE = '/src/assets/images/envato_hypoxic_lab_1791426312150.jpg';
+export const CRYO_IMAGE = '/src/assets/images/envato_cryo_plunge_1791426325168.jpg';
+export const ELEIKO_IMAGE = '/src/assets/images/envato_eleiko_bay_1791426337132.jpg';
+export const NUTRITION_IMAGE = '/src/assets/images/envato_dispense_lab_1791426348478.jpg';
+export const RECOVERY_IMAGE = CRYO_IMAGE;
 
 export const INITIAL_ATHLETE: AthleteProfile = {
   name: 'Kaelen Vance',
@@ -41,7 +43,7 @@ export const INITIAL_FACILITIES: Facility[] = [
     location: 'Marina Bay Financial Hub · Level B2',
     sector: 'Hypoxic Altitude Barometric Zone',
     type: 'hypoxic',
-    image: FACILITY_IMAGE,
+    image: HYPOXIC_IMAGE,
     capacityMax: 6,
     capacityOccupied: 4,
     temperature: '17.5°C // 3,400m Sim',
@@ -61,7 +63,7 @@ export const INITIAL_FACILITIES: Facility[] = [
     location: 'Keppel Bay Waterfront Pavilion',
     sector: 'Contrast Recovery & Cryo Pods',
     type: 'recovery',
-    image: RECOVERY_IMAGE,
+    image: CRYO_IMAGE,
     capacityMax: 8,
     capacityOccupied: 3,
     temperature: '3.8°C Cold // 41.5°C Hot',
@@ -101,7 +103,7 @@ export const INITIAL_FACILITIES: Facility[] = [
     location: 'Changi High-Performance Campus',
     sector: 'Heavy Ballistics & Neural Power',
     type: 'strength',
-    image: FACILITY_IMAGE,
+    image: ELEIKO_IMAGE,
     capacityMax: 2,
     capacityOccupied: 0,
     temperature: '20.0°C Climate Control',

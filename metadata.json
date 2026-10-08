@@ -1,0 +1,6 @@
+{
+  "name": "Kinetic Volt Athletics",
+  "description": "High-octane sports technology ecosystem combining athletic brutalism with real-time physiological telemetry, facility booking, and automated nutrition dispensing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

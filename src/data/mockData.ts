@@ -1,10 +1,15 @@
 import { Facility, FuelFormula, AthleteProfile, HeartRateZone } from '../types';
+import heroImg from '../assets/images/envato_sprint_track_1791426294634.jpg';
+import hypoxicImg from '../assets/images/envato_hypoxic_lab_1791426312150.jpg';
+import cryoImg from '../assets/images/envato_cryo_plunge_1791426325168.jpg';
+import eleikoImg from '../assets/images/envato_eleiko_bay_1791426337132.jpg';
+import nutritionImg from '../assets/images/envato_dispense_lab_1791426348478.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/envato_sprint_track_1791426294634.jpg';
-export const HYPOXIC_IMAGE = '/src/assets/images/envato_hypoxic_lab_1791426312150.jpg';
-export const CRYO_IMAGE = '/src/assets/images/envato_cryo_plunge_1791426325168.jpg';
-export const ELEIKO_IMAGE = '/src/assets/images/envato_eleiko_bay_1791426337132.jpg';
-export const NUTRITION_IMAGE = '/src/assets/images/envato_dispense_lab_1791426348478.jpg';
+export const HERO_IMAGE = heroImg;
+export const HYPOXIC_IMAGE = hypoxicImg;
+export const CRYO_IMAGE = cryoImg;
+export const ELEIKO_IMAGE = eleikoImg;
+export const NUTRITION_IMAGE = nutritionImg;
 export const RECOVERY_IMAGE = CRYO_IMAGE;
 
 export const INITIAL_ATHLETE: AthleteProfile = {
